@@ -1,0 +1,148 @@
+.slider__winner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+.slider__body {
+  /* padding-left: 150px; */
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider__box {
+  max-width: 430px;
+  height: 230px;
+  background: #FFFFFF;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.slider__body.slick-current>.slider__box {
+  border: 2px solid #F53838;
+}
+
+.slider__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__slider-img {
+  display: flex;
+}
+
+.slider__solo {
+  /* display: flex; */
+  padding-top: 36.5px;
+  /* padding-bottom: 26.5px; */
+}
+
+.slider__img-img {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-right: 21px;
+}
+
+.slider__title-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  align-items: center;
+  text-align: center;
+  color: #0B132A;
+}
+
+.slider__link-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 214%;
+  align-items: center;
+  /* text-align: center; */
+  color: #4F5665;
+}
+
+.slider__reting {
+  display: flex;
+  /* padding-top: 48px; */
+  text-align: center;
+  align-self: center;
+  /* padding-right: 56px; */
+}
+
+.reting__img {
+  padding-right: 30px;
+  padding-left: 10px;
+  /* padding-top: 47px; */
+  /* padding-right: 30px; */
+}
+
+.slider__text {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.slider__text-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 188%;
+  color: #0B132A;
+}
+
+
+/* ------------------------------------------- */
+
+.slick-arrow {
+  position: absolute;
+  font-size: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 1px solid red;
+  bottom: -120px;
+  cursor: pointer;
+}
+
+.slick-next {
+  right: 150px;
+  background: url(../../images/slider/button-prev.svg) 50%/57% no-repeat;
+  transform: rotateZ(180deg);
+}
+
+.slick-prev {
+  right: 230px;
+  background: url(../../images/slider/button-prev.svg) 50%/57% no-repeat;
+}
+
+.slick-dots {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  bottom: -82px;
+  left: 60px;
+}
+
+.slick-dots>li>button {
+  font-size: 0;
+  display: block;
+  height: 15px;
+  width: 15px;
+  background-color: #DDE0E4;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.slick-dots .slick-active>button {
+  width: 35px;
+  border-radius: 15px;
+  background-color: red;
+}

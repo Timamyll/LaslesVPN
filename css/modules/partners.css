@@ -1,0 +1,11 @@
+.page__partner {
+  padding-bottom: 40px;
+}
+.partner__wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}

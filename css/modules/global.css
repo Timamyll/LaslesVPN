@@ -1,0 +1,9 @@
+.global__maps {
+  margin: 80px auto;
+}
+
+.global__img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
