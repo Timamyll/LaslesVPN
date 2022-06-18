@@ -6,7 +6,6 @@
 }
 
 .easy__imgs {
-    order: 1;
     padding-left: 71px;
     width: 612px;
     height: 383px;
@@ -95,6 +94,12 @@
     }
     .easy__button {
         padding-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .easy__items-text {
+        padding: 10px 45px;
     }
 }
 

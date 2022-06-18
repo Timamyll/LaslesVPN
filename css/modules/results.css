@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     margin-top: 94px;
-    height: 188px;
     /* background: #FFFFFF; */
     border-radius: 10px;
     align-items: center;
@@ -90,6 +89,9 @@
     .results__item {
         padding-right: 47px;
         padding-left: 18px;
+    }
+    .results__body {
+        gap: 30px;
     }
 }
 

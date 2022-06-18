@@ -103,10 +103,7 @@
     }
     .character__ok-ok {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        flex-direction: column;
     }
 }
 

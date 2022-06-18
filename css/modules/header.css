@@ -55,8 +55,9 @@
     border: 2px;
     border-radius: 40px;
     background: #f6f6f6;
-    position: relative;
     color: #F53855;
+    position: relative;
+    margin-right: 150px;
 }
 
 .sing__item-up:after {
@@ -125,6 +126,10 @@
     }
     .header__sing {
         margin-top: 25px;
+    }
+
+    .sing__item-up {
+        margin-right: 0;
     }
 }
 
