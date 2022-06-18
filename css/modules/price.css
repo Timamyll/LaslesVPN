@@ -1,130 +1,147 @@
 /* ------------------price-------------------------------------------- */
 
 .price__prices {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
 }
 
 .price__box {
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  max-width: 330px;
-  height: 760px;
-  background: #FFFFFF;
-  border: 2px solid #DDDDDD;
-  border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 330px;
+    height: 760px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
 }
 
 .price__img {
-  padding-top: 80px;
-  padding-right: 92px;
-  /* padding-bottom: 515px; */
-  padding-left: 92px;
+    padding-top: 80px;
+    padding-right: 92px;
+    /* padding-bottom: 515px; */
+    padding-left: 92px;
 }
 
 .price__title {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 100px;
-  padding-right: 100px;
-  /* max-width: 82px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* max-width: 82px;
   height: 30px; */
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 167%;
-  color: #0B132A;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    color: #0B132A;
 }
 
 .price__table {
-  display: flex;
-  /* justify-content: center; */
-  padding-top: 30px;
-  max-width: 400px;
-  height: 39px;
-  /* text-align: leceft; */
-  padding-left: 70px;
-  padding-right: 70px;
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 30px;
+    max-width: 400px;
+    height: 39px;
+    /* text-align: leceft; */
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .price__text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 214%;
-  color: #4F5665;
-  /* padding-left: 20px; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #4F5665;
+    /* padding-left: 20px; */
 }
 
 .text__img {
-  padding-right: 20px;
+    padding-right: 20px;
 }
 
 .table__title {
-  text-align: center;
-  /* padding-top: 130px; */
-  top: auto;
-  padding-bottom: 20px;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 120%;
-  color: #0B132A;
+    text-align: center;
+    /* padding-top: 130px; */
+    top: auto;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    color: #0B132A;
 }
 
 .table__button {
-  top: 114px;
-  /* position: relative; */
-  /* padding-top: 20px; */
-  background: #FFFFFF;
-  border: 2px solid #F53838;
-  border-radius: 10px;
-  padding-top: 13px;
-  padding-right: 63px;
-  padding-left: 63px;
-  padding-bottom: 13px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  color: #F53838;
-  transition: all .3s;
+    top: 114px;
+    /* position: relative; */
+    /* padding-top: 20px; */
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+    padding-top: 13px;
+    padding-right: 63px;
+    padding-left: 63px;
+    padding-bottom: 13px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53838;
+    transition: all .3s;
 }
 
 .table__button:hover {
-  background: #F53838;
-  color: #fff;
-  border: 2px solid #F53838;
+    background: #F53838;
+    color: #fff;
+    border: 2px solid #F53838;
 }
 
 .price_cent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .price_cent-free {
-  padding-top: 139px;
+    padding-top: 139px;
 }
 
 .price_cent-mo {
-  padding-top: 100px;
+    padding-top: 100px;
 }
 
 .price_cent-mo span {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .price_cent-profi {
-  padding-top: 60px;
+    padding-top: 60px;
 }
 
 .price_cent-profi span {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 @media (max-width: 1024px) {
-  .price__prices {
-    flex-wrap: wrap;
-  }
+    .price__prices {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 325px) {
+    .price__box {
+        min-width: 295px;
+    }
+    .price__img {
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    .price__table {
+        padding-right: 0;
+    }
+    .price_cent-mo {
+        padding-top: 71px;
+    }
 }

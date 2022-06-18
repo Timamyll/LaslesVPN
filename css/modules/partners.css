@@ -1,11 +1,27 @@
 .page__partner {
-  padding-bottom: 40px;
+    padding-bottom: 40px;
 }
+
 .partner__wrapper {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 450px) {
+    .parter__item {
+        max-width: 125px;
+    }
+    .page__partner {
+        padding: 0;
+    }
+}
+
+@media (max-width: 325px) {
+    .parter__item {
+        max-width: 60px;
+    }
 }

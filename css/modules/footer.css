@@ -1,149 +1,176 @@
 .footer {
-  padding: 67px 20px 30px 20px;
-  background: #F8F8F8;
+    padding: 67px 20px 30px 20px;
+    background: #F8F8F8;
 }
 
 .footer__body {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .table1__logo {
-  max-width: 149px;
-  height: 37px;
-  /* padding-bottom: 20px; */
+    max-width: 149px;
+    height: 37px;
+    /* padding-bottom: 20px; */
 }
 
 .table1__text-text {
-  padding-top: 20px;
-  padding-right: 230px;
+    padding-top: 20px;
+    padding-right: 230px;
 }
 
-.table1__text {
-  max-width: 149px;
-  height: 37px;
-}
+
+/* .table1__text {} */
 
 .table1__text-table1 span {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .table1__text-table1 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 188%;
-  color: #4F5665;
-  width: 340px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    color: #4F5665;
+    width: 340px;
 }
 
 .footer__table1-1 {
-  display: flex;
-  padding-top: 30px;
+    display: flex;
+    padding-top: 30px;
 }
 
 .prava__sait {
-  padding-top: 30px;
+    padding-top: 30px;
 }
 
 .social__facebook {
-  max-width: 34px;
-  height: 34px;
+    max-width: 34px;
+    height: 34px;
 }
 
 .social__twitter {
-  max-width: 34px;
-  height: 34px;
-  padding-left: 20px;
+    max-width: 34px;
+    height: 34px;
+    padding-left: 20px;
 }
 
 .social__instagram {
-  max-width: 34px;
-  height: 34px;
-  padding-left: 20px;
+    max-width: 34px;
+    height: 34px;
+    padding-left: 20px;
 }
 
 .instagram {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 .prava__text {
-  max-width: 132px;
-  height: 30px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 188%;
-  color: #AFB5C0;
-  text-align: center;
-  /* padding-top: 30px; */
+    max-width: 132px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    color: #AFB5C0;
+    text-align: center;
+    /* padding-top: 30px; */
 }
 
 .footer__table2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  /* align-items: center; */
-  padding-right: 126px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-right: 126px;
 }
 
 .title__footer2 {
-  max-width: 71px;
-  height: 30px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 167%;
-  color: #0B132A;
+    max-width: 71px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    color: #0B132A;
 }
 
 .table2__text-text {
-  max-width: 74px;
-  height: 30px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 188%;
-  color: #4F5665;
-  padding-top: 20px;
+    max-width: 74px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    color: #4F5665;
+    padding-top: 20px;
 }
 
 .footer__table3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  /* align-items: center; */
-  padding-right: 126px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-right: 126px;
 }
 
 .table3__text-text {
-  /* max-width: 123px; */
-  height: 30px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 188%;
-  color: #4F5665;
-  padding-top: 20px;
+    /* max-width: 123px; */
+    height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    color: #4F5665;
+    padding-top: 20px;
 }
 
 .footer__table4 {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-around; */
-  /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
 }
 
 .title__footer4 {
-  max-width: 102px;
-  height: 30px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 167%;
-  color: #0B132A;
+    max-width: 102px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    color: #0B132A;
 }
 
 .table4__text-text {
-  max-width: 121px;
-  height: 30px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 188%;
-  color: #4F5665;
-  padding-top: 20px;
+    max-width: 121px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    color: #4F5665;
+    padding-top: 20px;
 }
+
+
+/* --------adaptiv---------- */
+
+@media (max-width: 1024px) {
+    .table1__text-text {
+        padding-right: 0;
+    }
+    .footer__body {
+        justify-content: space-evenly;
+    }
+    .footer__table3 {
+        padding-right: 0;
+    }
+    .footer__table2 {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 450px) {
+    .footer__body {
+        flex-wrap: wrap;
+        justify-content: none;
+    }
+}
+
+@media (max-width: 320px) {}

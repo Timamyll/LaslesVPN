@@ -39,7 +39,6 @@ body {
     background: #f6f6f6;
 }
 
-
 ._container {
     max-width: 1290px;
     padding: 0 15px;
@@ -86,4 +85,30 @@ body {
 
 .header__text span {
     font-weight: 500;
+}
+
+
+/* ------adaption----------- */
+
+@media (max-width: 1024px) {
+    .header__header {
+        padding-top: 45px;
+    }
+    .header__title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 450px) {
+    .header__title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__title {
+        font-size: 19px;
+    }
 }

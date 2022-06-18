@@ -1,63 +1,103 @@
 .subscribe__box {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 233px;
-  background: #FFFFFF;
-  border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 10px;
 }
 
 .subscribe__item {
-  padding-top: 59px;
-  padding-bottom: 59px;
-  padding-left: 70px;
-  padding-right: 340px;
+    padding-top: 59px;
+    padding-bottom: 59px;
+    padding-left: 70px;
+    padding-right: 340px;
 }
 
 .subscribe__title {
-  max-width: 372px;
-  height: 80px;
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 129%;
-  color: #0B132A;
+    max-width: 100%;
+    /* height: 80px; */
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 129%;
+    color: #0B132A;
 }
 
 .subscribe__text {
-  max-width: 410px;
-  height: 16px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 188%;
-  color: #4F5665;
-  padding-top: 20px;
+    max-width: 410px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    color: #4F5665;
+    padding-top: 20px;
 }
 
 .subscribe__button {
-  height: 86px;
-  padding-top: 87px;
-  padding-bottom: 87px;
-  padding-right: 70px;
+    padding-top: 87px;
+    padding-bottom: 87px;
+    padding-right: 70px;
 }
 
 .subscribe__text-button {
-  max-width: 250px;
-  height: 60px;
-  background: #F53838;
-  border-radius: 10px;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-right: 60px;
-  padding-left: 60px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 156%;
-  color: #FFFFFF;
-  transition: all .3s;
+    max-width: 250px;
+    height: 60px;
+    background: #F53838;
+    border-radius: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-left: -215px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 156%;
+    color: #FFFFFF;
+    transition: all .3s;
 }
 
 .subscribe__text-button:hover {
-  background: #FFFFFF;
-  color: #F53838;
-  border: 1px solid #F53838;
+    background: #FFFFFF;
+    color: #F53838;
+    border: 1px solid #F53838;
+}
+
+
+/* ------adaption--------------- */
+
+@media (max-width: 1024px) {
+    .subscribe__title {
+        max-width: 100%;
+    }
+    .subscribe__item {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .subscribe__item {
+        padding: 0;
+    }
+    .subscribe__title {
+        font-size: 25px;
+        line-height: 100%;
+    }
+    .subscribe__text {
+        line-height: 100%;
+        padding-top: 0;
+    }
+    .subscribe__button {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .subscribe__button {
+        padding-top: 43px;
+        padding-bottom: 25px;
+    }
+    .subscribe__text-button {
+        margin-left: 0;
+    }
+    .subscribe__box {
+        flex-direction: column;
+    }
 }

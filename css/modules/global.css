@@ -1,9 +1,22 @@
 .global__maps {
-  margin: 80px auto;
+    margin: 80px auto;
 }
 
 .global__img {
-  display: block;
-  max-width: 80%;
-  margin: 0 auto;
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 450px) {
+    .global__img {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 325px) {
+    .global__img {
+        margin-top: -52px;
+        max-width: 100%;
+    }
 }
