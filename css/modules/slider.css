@@ -147,7 +147,6 @@
     background-color: red;
 }
 
-
 @media (max-width: 1024px) {
     .slider__box {
         margin: 0 auto;
@@ -175,7 +174,10 @@
 }
 
 @media (max-width: 425px) {
-    .slick-dots > li > button {
+    .slick-dots>li>button {
         width: 15px;
+    }
+    .slider__title-title {
+        text-align: left;
     }
 }
