@@ -86,12 +86,15 @@
 }
 
 @media (max-width: 450px) {
+    .results__body {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 450px) {
     .results__item {
         padding-right: 47px;
         padding-left: 18px;
-    }
-    .results__body {
-        gap: 30px;
     }
 }
 
